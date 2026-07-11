@@ -183,6 +183,50 @@ class Solution:
 a = Solution()
 # a.pattern19(5)
 
-#--------pattern20--------
+#------pattern20----------
+class Solution:
+    def pattern20(self, n):
 
+        for i in range(1, n + 1):
+            for j in range(i):
+                print("*", end="")
+
+            for j in range(2 * (n - i)):
+                print(" ", end="")
+
+            for j in range(i):
+                print("*", end="")
+
+            print()
+
+        for i in range(n - 1, 0, -1):
+
+            for j in range(i):
+                print("*", end="")
+
+            for j in range(2 * (n - i)):
+                print(" ", end="")
+
+            for j in range(i):
+                print("*", end="")
+
+            print()
+a = Solution()
+# a.pattern20(5)
+
+#--------pattern21--------
+# In this we have to print square means only boundaaries we have to print i.e where i=0,j=0,i=n-1 and j=n-1
+
+class Solution:
+    def pattern21(self, n):
+      for i in range(n):
+        for j  in range(n):
+          if(i==0 or j==0 or i==n-1 or j==n-1):
+            print("*",end=" ")
+          else:
+            print(" ",end=" ")
+        print("")
+
+a= Solution()
+# a.pattern21(10)
 
