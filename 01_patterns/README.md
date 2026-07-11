@@ -1,4 +1,4 @@
-# ⭐ Pattern Programming
+## Pattern Programming
 
 Welcome to the **Patterns** section of my DSA repository.
 
@@ -6,7 +6,7 @@ This folder contains the pattern programming problems I solved while following t
 
 Pattern programming is the first step in my DSA journey. It helped me understand how loops work and improved my logical thinking before moving on to more advanced DSA topics.
 
-## 📚 What I Practiced
+## What I Practiced
 
 * Star (`*`) Patterns
 * Number Patterns
